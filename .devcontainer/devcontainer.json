@@ -1,0 +1,16 @@
+{
+    "name": "Flutter Codespace",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+      "dart-code.flutter",
+      "dart-code.dart-code"
+    ],
+    "postCreateCommand": "/usr/local/flutter/bin/flutter doctor",
+    "remoteUser": "vscode"
+  }
+  
